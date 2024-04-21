@@ -89,59 +89,6 @@ body{
     text-decoration-skip-ink: none;
 }
 
-/* Header */
-
-header .menu ul li a{
-    font-weight: 500;
-    font-size: 16px;
-    color: #211951;
-    text-decoration: none;
-}
-
-header .menu ul li a img{
-    margin-left: 11px;
-}
-
-header .menu ul{
-    display: flex;
-    align-items: center;
-}
-
-header .menu ul li{
-    margin-right: 24px;
-}
-
-header .menu ul li:last-child{
-    margin-right: 0;
-}
-
-header .right-side .burger{
-    display: none;
-}
-
-header .right-side{
-    display: flex;
-    align-items: center;
-}
-
-header .right-side .lang{
-    display: flex;
-    width: 164px;
-    justify-content: end;
-}
-
-header .right-side .lang .arrow{
-    margin-left: 7px;
-    cursor: pointer;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 0;
-}
-
 /* Container First */
 
 .container-first{
@@ -680,10 +627,6 @@ footer .footer-info .other-info .pay{
 }
 
 @media screen and (max-width: 1024px){
-    header .right-side .lang,
-    header .logo img{
-        width: 123px;
-    }
     .container-first .dark h1,
     .container-first .dark h2{
         font-size: 54px;
@@ -725,20 +668,6 @@ footer .footer-info .other-info .pay{
     }
     footer .footer-info .other-info{
         padding-top: 40px;
-    }
-}
-
-@media screen and (max-width: 900px){
-    header .right-side .burger{
-        display: block;
-        margin-left: 20px;
-        height: 24px;
-    }
-    header .menu{
-        display: none;
-    }
-    header .right-side .lang{
-        width: auto;
     }
 }
 
