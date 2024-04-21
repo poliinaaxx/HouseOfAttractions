@@ -646,8 +646,11 @@ footer .footer-info .other-info .pay a{
 footer .footer-info .other-info .pay a:last-child{
     margin-right: 0;
 }
-
-
+footer .footer-info .other-info .pay{
+    display: flex;
+    align-items: center;
+    height: 24px;
+}
 
 
 
@@ -790,7 +793,7 @@ footer .footer-info .other-info .pay a:last-child{
         justify-content: center;
     }
     footer .footer-info .other-info .pay{
-        text-align: center;
+        justify-content: center;
     }
 }
 
