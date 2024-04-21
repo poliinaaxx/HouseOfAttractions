@@ -244,6 +244,7 @@ header{
     text-align: center;
     color: #211951;
     margin-bottom: 42px;
+    margin-top: 24px;
 }
 
 .container-slider .swiper h1 span{
@@ -822,6 +823,12 @@ footer .footer-info .other-info .pay a:last-child{
     .container-advantages .adv p{
         font-size: 14px;
     }
+    .container-advantages .ellipse img{
+        margin-top: 24px;
+    }
+    .container-slider .ellipse{
+        margin-top: 24px;
+    }
     .container-faq .faq .question .question-info h5,
     .container-faq .faq .question .question-info p{
         font-size: 18px;
@@ -837,6 +844,9 @@ footer .footer-info .other-info .pay a:last-child{
     }
     .container-contact .contact-form form button{
         font-size: 18px;
+    }
+    .container-contact .contact-form{
+        padding: 24px 0;
     }
     footer .map .rating .rat:first-child{
         margin-right: 0;
