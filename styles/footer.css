@@ -216,6 +216,9 @@ footer .footer-info .other-info .pay{
     footer .footer-info .other-info .pay{
         justify-content: center;
     }
+    footer .footer-info h1{
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -249,6 +252,12 @@ footer .footer-info .other-info .pay{
 @media screen and (max-width: 500px){
     footer .footer-info .contacts .addresses{
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 450px){
+    footer .footer-info h1{
+        font-size: 24px;
     }
 }
 
