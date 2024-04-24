@@ -6,6 +6,7 @@ document.querySelector('.burger').onclick = function(){
 // Dropdown menu
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById('rotate').classList.toggle("rotate");
 }
 
 // Questions
