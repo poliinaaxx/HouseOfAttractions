@@ -1,3 +1,8 @@
+// Burger menu
+document.querySelector('.burger').onclick = function(){
+    document.querySelector('.menu').classList.toggle('menu-show');
+}
+
 // Questions
 function switchQuestions1(){
     var btn1 = document.querySelector('#plus1');

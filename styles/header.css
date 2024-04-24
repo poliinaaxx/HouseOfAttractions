@@ -5,10 +5,6 @@ header .menu ul li a{
     text-decoration: none;
 }
 
-header .menu ul li a img{
-    margin-left: 11px;
-}
-
 header .menu ul{
     display: flex;
     align-items: center;
@@ -65,7 +61,35 @@ header{
         height: 24px;
     }
     header .menu{
-        display: none;
+        /* display: none; */
+        min-height: 100vh;
+        background-color: rgba(131, 111, 255, 0.85);;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 5;
+        width: 85%;
+        min-width: 270px;
+        padding-top: 100px;
+        transition: 1s;
+    }
+    header .menu.menu-show{
+        left: 0%;
+    }
+    header .menu ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    header .menu ul li{
+        margin: 12px 0;
+        /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+    }
+    header .menu ul li a{
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
     }
     header .right-side .lang{
         width: auto;
