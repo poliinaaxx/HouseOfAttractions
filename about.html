@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galery</title>
+    <title>About us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
@@ -27,18 +27,18 @@
                 <ul>
                     <li><a href="attractions.html">Atrakcje</a></li>
                     <li><a href="#">Bilety</a></li>
-                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                     <li><a href="about.html">O nas</a></li>
                     <li><a href="galery.html">Galeria</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a href="index.html#contact">Kontakt</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
                 </ul>
             </nav>
             <div class="right-side">
                 <div class="lang dropdown">
                     <img class="flag" src="images/flag.svg" alt="flag">
                     <button onclick="myFunction()" class="dropbtn">
-                        <img class="arrow" src="images/flag_arrow.svg" alt="arrow">
+                        <img class="arrow" id="rotate" src="images/flag_arrow.svg" alt="arrow">
                     </button>
                     <div id="myDropdown" class="dropdown-content">
                         <a href="#">Polish</a>
@@ -53,61 +53,69 @@
         </header>
 
         <section class="container-top">
-            <h1 class="center">Galeria <span>House Of Attractions</span></h1>
+            <h1 class="center">O Naszym <span>House Of Attractions</span></h1>
             <div class="ellipse">
                 <img src="images/ellipse1.png" alt="ellipse">
             </div>
         </section>
 
-        <section class="container-galery">
-            <div class="images center">
-                <div class="image long1">
-                    <img src="images/galery/gal1.png" alt="photo 1" class="zoom">
+        <section class="container-advantages color">
+            <div class="advantages center">
+                <div class="adv">
+                    <img src="images/adv1.svg" alt="icon 1">
+                    <h6>10+ lat</h6>
+                    <p>500+ tysięcy klientów</p>
                 </div>
-                <div class="image">
-                    <img src="images/galery/gal2.png" alt="photo 2" class="zoom">
+                <div class="adv">
+                    <img src="images/adv2.svg" alt="icon 2">
+                    <h6>Droga królewska</h6>
+                    <p>Atrakcje w samym sercu miasta</p>
                 </div>
-                <div class="image">
-                    <img src="images/galery/gal3.png" alt="photo 3" class="zoom">
+                <div class="adv">
+                    <img src="images/adv3.svg" alt="icon 3">
+                    <h6>Zwrotny bilet</h6>
+                    <p>Nie podoba się? Zwrócimy bilet</p>
                 </div>
-                <div class="image">
-                    <img src="images/galery/gal4.png" alt="photo 4" class="zoom">
+                <div class="adv">
+                    <img src="images/adv4.svg" alt="icon 4">
+                    <h6>Dla każdego</h6>
+                    <p>9 dostępnych atrakcji</p>
                 </div>
-                <div class="image">
-                    <img src="images/galery/gal5.png" alt="photo 5" class="zoom">
+            </div>
+        </section>
+
+        <section class="container-about">
+            <div class="about-us center">
+                <div class="video-play">
+                    <img class="video" src="images/video.png" alt="video">
+                    <div class="play">
+                        <img src="images/play.svg" alt="play">
+                    </div>
                 </div>
-                <div class="image">
-                    <img src="images/galery/gal6.png" alt="photo 6" class="zoom">
-                </div>
-                <div class="image long7">
-                    <img src="images/galery/gal7.png" alt="photo 7" class="zoom">
-                </div>
-                <div class="image">
-                    <img src="images/galery/gal8.png" alt="photo 8" class="zoom">
-                </div>
-                <div class="image">
-                    <img src="images/galery/gal9.png" alt="photo 9" class="zoom">
-                </div>
-                <div class="image long10">
-                    <img src="images/galery/gal10.png" alt="photo 10" class="zoom">
-                </div>
-                <div class="image">
-                    <img src="images/galery/gal11.png" alt="photo 11" class="zoom">
-                </div>
-                <div class="image long12">
-                    <img src="images/galery/gal12.png" alt="photo 12" class="zoom">
-                </div>
-                <div class="image">
-                    <img src="images/galery/gal13.png" alt="photo 13" class="zoom">
-                </div>
-                <div class="image">
-                    <img src="images/galery/gal14.png" alt="photo 14" class="zoom">
-                </div>
-                <div class="image">
-                    <img src="images/galery/gal15.png" alt="photo 15" class="zoom">
-                </div>
-                <div class="image">
-                    <img src="images/galery/gal16.png" alt="photo 16" class="zoom">
+                <div class="about-info">
+                    <h6>O Naszym House Of Attractions</h6>
+                    <p>To wyjątkowe miejsce, w którym każdy znajdzie rozrywkę dla siebie. Z nami możesz spróbować swoich sił jako łucznik broniący swojego zamku w wirtualnej rzeczywistości lub jako szpieg w laserowym labiryncie.
+                        <br><br>
+                        Możesz znaleźć się w całkowicie lustrzanym pokoju z wielokolorowymi światłami, które tworzą efekt nieskończoności.
+                        Format filmów 7D i 3D pozwoli Ci w pełni zanurzyć się w fabułę filmu i zająć miejsce głównego bohatera.
+                        <br><br>
+                        W kontaktowym muzeum żywych motyli można zobaczyć i nakarmić motyle, królików, ptaszek.</p>
+                        <div class="rating">
+                            <div class="rat">
+                                <img src="images/rating1.svg" alt="TripAdvisor">
+                                <div class="info">
+                                    <h6>Ocena 4,5 z 5</h6>
+                                    <p>149 recenzji</p>
+                                </div>
+                            </div>
+                            <div class="rat">
+                                <img src="images/rating2.svg" alt="Google">
+                                <div class="info">
+                                    <h6>Ocena 4,8 z 5</h6>
+                                    <p>2 367 recenzji</p>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
             <div class="ellipse">
@@ -117,22 +125,6 @@
 
         <footer>
             <div class="map center">
-                <div class="rating">
-                    <div class="rat">
-                        <img src="images/rating1.svg" alt="TripAdvisor">
-                        <div class="info">
-                            <h6>Ocena 4,5 z 5</h6>
-                            <p>149 recenzji</p>
-                        </div>
-                    </div>
-                    <div class="rat">
-                        <img src="images/rating2.svg" alt="Google">
-                        <div class="info">
-                            <h6>Ocena 4,8 z 5</h6>
-                            <p>2 367 recenzji</p>
-                        </div>
-                    </div>
-                </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1280.7003236898875!2d19.937184235325773!3d50.06005799699964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b34c711cbd9%3A0x20271baf5c1b40cb!2sHouse%20of%20Attractions!5e0!3m2!1sru!2sby!4v1713712581467!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="footer-info center">
@@ -208,8 +200,6 @@
         </footer>
     </div>
 
-
     <script src="js/script.js"></script>
-    <script src="js/script_atr.js"></script>
 </body>
 </html>
